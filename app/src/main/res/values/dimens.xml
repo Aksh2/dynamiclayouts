@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textView_right_margin">10dp</dimen>
+    <dimen name="textView_left_margin">15dp</dimen>
+    <dimen name="textView_top_margin">5dp</dimen>
+    <dimen name="textView_bottom_margin">5dp</dimen>
+
+    <dimen name="editText_right_margin">5dp</dimen>
+    <dimen name="editText_left_margin">5dp</dimen>
+    <dimen name="editText_top_margin">5dp</dimen>
+    <dimen name="editText_bottom_margin">5dp</dimen>
+
+    <dimen name="spinner_right_margin">10dp</dimen>
+    <dimen name="spinner_left_margin">10dp</dimen>
+    <dimen name="spinner_top_margin">5dp</dimen>
+    <dimen name="spinner_bottom_margin">5dp</dimen>
+
+
+
+
+</resources>
