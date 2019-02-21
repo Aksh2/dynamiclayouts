@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">DynamicLayouts</string>
-    <string name="list_name_item">Name:%1$s</string>
-    <string name="list_age_item">Age:%1$d</string>
+
     <string name="total_reports">Total Reports:</string>
+    <string name="done_button_text">Done</string>
+    
 </resources>
