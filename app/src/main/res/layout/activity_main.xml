@@ -56,9 +56,9 @@
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/reportsRv"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_width="@dimen/match_constraint"
+        android:layout_height="@dimen/match_constraint"
+        android:layout_marginTop="@dimen/recycler_view_margin_top"
         app:layout_constraintTop_toBottomOf="@id/labelRoot"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
