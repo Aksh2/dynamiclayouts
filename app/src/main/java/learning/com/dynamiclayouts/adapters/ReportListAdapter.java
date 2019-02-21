@@ -3,6 +3,7 @@ package learning.com.dynamiclayouts.adapters;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,9 +33,9 @@ public class ReportListAdapter extends RecyclerView.Adapter<ReportListAdapter.Re
 
     @Override
     public void onBindViewHolder(@NonNull ReportItemsViewHolder holder, int position) {
-        if(reportModelList.get(position).getAge()!=0)
-            holder.ageTv.setText(holder.ageTv.getContext().getResources().getString(R.string.list_age_item,reportModelList.get(position).getAge()));
-        holder.nameTv.setText(holder.nameTv.getContext().getResources().getString(R.string.list_name_item,reportModelList.get(position).getName()));
+        if(!TextUtils.isEmpty(reportModelList.get(position).getField2()))
+            holder.ageTv.setText(reportModelList.get(position).getField2());
+        holder.nameTv.setText(reportModelList.get(position).getField1());
     }
 
     @Override
